@@ -1,8 +1,8 @@
 {% set name = "pytest-picked" %}
-{% set version = "0.3.2" %}
+{% set version = "0.4.0" %}
 {% set file_ext = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "5cecedadea7ae942a151fd98adb979d24bed145b75a0b64f6e2dbdc0491e378f" %}
+{% set hash_value = "0e0b13865b66647a9c539a0213a777edd12ead254e2edcb3c6c9d6e7933b0fef" %}
 
 package:
   name: '{{ name|lower }}'
