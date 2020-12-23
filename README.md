@@ -5,7 +5,7 @@ Home: https://github.com/anapaulagomes/pytest-picked
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-picked-feedstock/blob/master/LICENSE.txt)
 
 Summary: Run the tests related to the changed files
 
