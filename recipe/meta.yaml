@@ -1,5 +1,5 @@
 {% set name = "pytest-picked" %}
-{% set version = "0.5.0" %}
+{% set version = "0.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,8 +7,8 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b39cd43b1f5e6efd2fc896f318e23c2c77effde8dd6efa58653a2940d8a384d9
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 6634c4356a560a5dc3dba35471865e6eb06bbd356b56b69c540593e9d5620ded
 
 build:
   noarch: python
